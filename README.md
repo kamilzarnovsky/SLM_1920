@@ -3,7 +3,7 @@ Statistical Learning Methods - laboratories repository
 
 ### Organiztional information
 
-Teachers:
+Lecturers:
 
 - _Lecture_: Bogumił Kamiński, [http://bogumilkaminski.pl](http://bogumilkaminski.pl/)
 - _Laboratories_: Łukasz Kraiński, Michał Kot, Kinga Siuta, Agata Skorupka
