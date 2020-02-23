@@ -11,9 +11,8 @@ Teachers:
 Schedule information:
 
 - _Lecture_:        Auditorium IV, Tuesdays, 8:00 – 10:35
-- _Laboratories_:        
-  - A-113, Wednesdays, 17:10–18:50, group number: 104
-    meetings dates: 04-03-20;18-03-20;01-04-20;22-04-20;06-05-20;20-05-20;03-06-20;
+- _Laboratories_:   A-113, Wednesdays, 17:10–18:50
+  - group number:   102, meetings dates: 26-02-20;11-03-20;25-03-20;08-04-20;29-04-20;13-05-20;27-05-20;10-06-20;
 
 ### Laboratories
 
@@ -41,7 +40,7 @@ Schedule information:
 
 You can obtain points for the following components:
 - Exam (50 points total):
-  - Test form (25 theoretical questions of equal value without negative points)
+  - Test form (25 theoretical questions of equal point value without negative points)
   - Takes place at the last lecture
 - Laboratories practical exam (50 points total):
   - Exam in the form of 25 mini-tasks (2-3 bigger tasks) to be solved on a computer (in R)
