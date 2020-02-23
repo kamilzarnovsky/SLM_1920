@@ -50,7 +50,7 @@ You can obtain points for the following components:
   - The second contest will be the same for all laboratories groups - details will be provided during the lecture
   - Points for the contests will be "additional" - you cannot score more than 100 points in total.
 
-On the basis of the sum of points (maximum 100) obtained from the exams and exercises, the final grade is determined:
+The final grade is determined based on the sum of points scored at exams, contests etc. (maximum 100):
 
 | From | To | Grade |
 | --- | --- | --- |
