@@ -13,6 +13,7 @@ Schedule information:
 - _Lecture_:        Auditorium IV, Tuesdays, 8:00 – 10:35
 - _Laboratories_:        
   - A-113, Wednesdays, 17:10–18:50, group number: 104
+    meetings dates: 04-03-20;18-03-20;01-04-20;22-04-20;06-05-20;20-05-20;03-06-20;
 
 ### Laboratories
 
