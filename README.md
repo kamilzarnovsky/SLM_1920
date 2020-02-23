@@ -1,48 +1,62 @@
 # SLM_1920
 Statistical Learning Methods - laboratories repository
 
-## Zasady konkursu SRD Semestr zimowy 19/20
-### Zespoły
-Należy dobrać się w zespoły złożone z 1-3 osób. Proszę nazwać zespół (nazwa pojawi się w tabeli z wynikami). Proszę nie używać danych osobowych w nazwach (bo RODO). 
+### Organiztional information
 
-### Zbiór danych i cel konkursu
-Celem konkursu jest uzyskanie jak największego **accuracy** (procent poprawnie zaklasyfikowanych obserwacji [TP+TN/(TP+TN+FP+FN)]) w klasyfikacji zmiennej celu **IsIPA**. Do stworzenia modelu proszę wykorzystać zbiór danych **IPA.csv**, natomiast finalną predykcję należy wykonanać na zbiorze **IPA_test.csv**. Opis zbioru znajduje się w pliku **IPA_description.txt**.
+Teachers:
 
-### Wyniki
-Wyniki należy przesłać na adres lukasz.krainski123@gmail.com. Grupa nr 100 może wysyłać wyniki do godziny 18:50, natomiast grupa nr 101 do 20:40. Wiadomości otrzymane po określonych godzinach nie będą przyjmowane. W treści maila należy podać nazwę grupy oraz imiona i nazwiska członków. Jako załączniki należy zamieścić:
-1. Skrypt R/Python/Julia ze stworzonym kodem
-2. Plik CSV o nazwie **[nazwa_grupy]_IPA_prediction.csv** zawierający jedną kolumnę o nazwie **Prediction** i 5000 obserwacji z wartościami 1/0 lub TRUE/FALSE oznaczających predykcję dla kolejnych wierszy ze zbioru testowego **IPA_test.csv**. 
+- _Lecture_: Bogumił Kamiński, [http://bogumilkaminski.pl](http://bogumilkaminski.pl/)
+- _Laboratories_: Łukasz Kraiński, Michał Kot, Kinga Siuta, Agata Skorupka
 
-Proszę dokładnie sprawdzić czy kolejność predykcji zgadza się z kolejnością obserwacji w zbiorze testowym.
+Schedule information:
 
-Tabela z rankingiem zespołów pojawi się na GitHubie w poniższym pliku README. Najlepszy zespół otrzyma dodatkowe 5 punktów, kolejny 4 punkty, itd.
+- _Lecture_:        Auditorium IV, Tuesdays, 8:00 – 10:35
+- _Laboratories_:        
+  - A-113, Wednesdays, 17:10–18:50, group number: 104
 
-Życzę powodzenia. 
+### Laboratories
 
-# Wyniki konkursu
-Mam nadzieję, że podobało się Państwu zadanie i była to dobra okazja, żeby wykorzystać metody poznane na zajęciach. Poniżej zamieszczam wyniki dla obu grup ćwiczeniowych i komentarz.
+| Class number | Topic |
+| --- | --- |
+| 1 | Programming in R language (compensatory classes) |
+| 2 | Methods for assessing the quality of classification models |
+| 3 | Nonparametric regression models: smoothing spline, LOESS, GAM |
+| 4 | Classic machine learning models: CART, random forest |
+| 5 | Contest no. 1 |
+| 6 | To be specified |
+| 7 | Summary of laboratories + test at the computer |
 
-Wśród wykorzystanych modeli przeważają metody oparte na drzewach decyzyjnych. 
-* Warto zauważyć, że wysoki wynik uzyskały prostsze algorytmy np. CART. 
-  - Zbiór testowy był losowo wybraną częścią głównego zbioru ze strony Brewer's Friend, więc charakterystyka danych train vs. test powinna być podobna (z zajęć powinni Państwo pamiętać, że pojedyncze drzewa mają problem ze stabilnością, ale tu problem nie występuje). 
-  - Dodatkowo wygląda na to, że predyktory wyjaśniają dosyć dużą część wariancji zmiennej celu i bardziej skomplikowane metody (np. ensemble models: Random Forest i Boosting) nie "wyciskają" dużo więcej z danych. 
-* Z drugiej strony, to właśnie modele ensemble wygrały w obu grupach. Proszę też pamiętać, że podałem klasę modeli, ale kluczowa dla wysokiego accuracy było dopasowanie hiperparametrów i wykorzystanie odpowiednich pakietów (niektórzy stosowali biblioteki, które nie były omawiane na zajęciach).
-### Grupa 100
 
-| Miejsce | Punkty | Zespół            | Accuracy | Język  | Model                | Komentarz                                           |
-|---------|--------|-------------------|----------|--------|----------------------|-----------------------------------------------------|
-| 1       | 5pkt   | Zespół R          | 86.92%   | R      | Random Forest        | Gratuluję wygranej :)                               |
-| 2       | 4pkt   | Nasza Fajna Grupa | 86.44%   | R      | CART Tree            | Proszę pamiętać, że 1 to TRUE a 0 to FALSE                                                    |
-| 3       | 3pkt   | Kuflowe Mocne     | 86.20%   | R      | Random Forest        |                                                     |
-| 4       | 2pkt   | Poziomki          | 83.96%   | R      | CHAID Tree           |                                                     |
-| 5       | 1pkt   | Jupyter           | 86.41%*  | Python | KNeighborsClassifier | *Model zająłby 3. miejsce, gdybym dostał predykcję. |
 
-### Grupa 101
+### Literature
 
-| Miejsce | Punkty | Zespół           | Accuracy | Język | Model               | Komentarz             |
-|---------|--------|------------------|----------|-------|---------------------|-----------------------|
-| 1       | 5pkt   | JMP              | 86.62%   | R     | GBoosted Trees      | Gratuluję wygranej :) |
-| 2       | 4pkt   | Team Drzewo      | 86.02%   | R     | CART Tree           |                       |
-| 3       | 3pkt   | Imp Bridge       | 85.84%   | R     | GBoosted Trees      |                       |
-| 4       | 2pkt   | Decyzyjne Kocury | 84.62%   | R     | Random Forest       |                       |
-| 5       | 1pkt   | Gołąbki          | 78.38%   | R     | Logistic Regression |                       |
+- Gareth J., Witten D., Hastie T., Tibshirani R. (2013), An Introduction to Statistical Learning with Applications in R ([http://www-bcf.usc.edu/~gareth/ISL/](http://www-bcf.usc.edu/~gareth/ISL/))
+- Kamiński B., Zawisza M. (2012), Receptury w R. Podręcznik dla ekonomisty, Oficyna Wydawnicza SGH ([http://bogumilkaminski.pl/projekty/](http://bogumilkaminski.pl/projekty/))
+- Hastie T., Tibshirani R., Friedman (2013), The Elements of Statistical Learning
+([http://www-stat.stanford.edu/~tibs/ElemStatLearn/](http://www-stat.stanford.edu/~tibs/ElemStatLearn/))
+
+
+### Guide on passing the class
+
+You can obtain points for the following components:
+- Exam (50 points total):
+  - Test form (25 theoretical questions of equal value without negative points)
+  - Takes place at the last lecture
+- Laboratories practical exam (50 points total):
+  - Exam in the form of 25 mini-tasks (2-3 bigger tasks) to be solved on a computer (in R)
+- Contests (10 points total)
+  - Two contests will be taking place - 2x5 points total
+  - Details of the first contest will be provided by the teacher during the labs
+  - The second contest will be the same for all laboratories groups - details will be provided during the lecture
+  - Points for the contests will be "additional" - you cannot score more than 100 points in total.
+
+On the basis of the sum of points (maximum 100) obtained from the exams and exercises, the final grade is determined:
+
+| From | To | Grade |
+| --- | --- | --- |
+| 0 | 49 | 2 |
+| 50 | 59 | 3 |
+| 60 | 69 | 3.5 |
+| 70 | 79 | 4 |
+| 80 | 89 | 4.5 |
+| 90 | 100 | 5 |
