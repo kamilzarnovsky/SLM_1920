@@ -81,9 +81,9 @@ The final grade is determined based on the sum of points scored at exams, contes
 
 | From | To | Final grade |
 | --- | --- | --- |
-| 0 | 49 | 2 |
-| 50 | 59 | 3 |
+| 0 | 49 | 2.0 |
+| 50 | 59 | 3.0 |
 | 60 | 69 | 3.5 |
-| 70 | 79 | 4 |
+| 70 | 79 | 4.0 |
 | 80 | 89 | 4.5 |
-| 90 | 100 | 5 |
+| 90 | 100 | 5.0 |
