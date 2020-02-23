@@ -14,45 +14,72 @@ Schedule information:
 - _Laboratories_:   A-113, Wednesdays, 17:10–18:50
   - group number:   102, meetings dates: 26-02-20;11-03-20;25-03-20;08-04-20;29-04-20;13-05-20;27-05-20;10-06-20;
 
+### Lectures
+
+| Date | Topic |
+| --- | --- |
+| 25-02-20 | Introduction to data science |
+| 03-03-20 | Working with Git and Github |
+| 10-03-20 | Introduction to Julia and Python programming for data science |
+| 17-03-20 | Introduction to predictive modeling |
+| 24-03-20 | Introduction to threading and distributed computing, K-nearest neighbors algorithm |
+| 31-03-20 | Methods of evaluation of predictive model quality |
+| 07-04-20 | Working with data frames in Julia and Python |
+| 21-04-20 | Methods of predictive model selection |
+| 28-04-20 | Regularization for predictive modeling |
+| 05-05-20 | Introduction to approximation and local predictive models |
+| 12-05-20 | Introduction to deep learning |
+| 19-05-20 | Causality modeling: introduction |
+| 26-05-20 | Causality modeling: algorithms |
+| 02-06-20 | Storytelling with data |
+| 09-06-20 | Data science in production environments + written examination |
+
+
 ### Laboratories
 
-| Class number | Topic |
+| Date | Topic |
 | --- | --- |
-| 1 | Programming in R language (compensatory classes) |
-| 2 | Methods for assessing the quality of classification models |
-| 3 | Nonparametric regression models: smoothing spline, LOESS, GAM |
-| 4 | Classic machine learning models: CART, random forest |
-| 5 | Contest no. 1 |
-| 6 | To be specified |
-| 7 | Summary of laboratories + test at the computer |
-
+| 26-02-20 | Refresher on R programming |
+| 11-03-20 | Methods of evaluation of classifiers |
+| 25-03-20 | Nonparametric regression models: smoothing spline, LOESS, GAM |
+| 8-04-20 | Classic machine learning models: CART, random forest |
+| 29-04-20 | Deep learning |
+| 13-05-20 | To be specified |
+| 27-05-20 | Modeling competition |
+| 10-06-20 | Computer exam |
 
 
 ### Literature
 
+- Stephen Boyd and Lieven Vandenberghe, Introduction to Applied Linear Algebra
+(http://vmls-book.stanford.edu/)
 - Gareth J., Witten D., Hastie T., Tibshirani R. (2013), An Introduction to Statistical Learning with Applications in R ([http://www-bcf.usc.edu/~gareth/ISL/](http://www-bcf.usc.edu/~gareth/ISL/))
-- Kamiński B., Zawisza M. (2012), Receptury w R. Podręcznik dla ekonomisty, Oficyna Wydawnicza SGH ([http://bogumilkaminski.pl/projekty/](http://bogumilkaminski.pl/projekty/))
-- Hastie T., Tibshirani R., Friedman (2013), The Elements of Statistical Learning
-([http://www-stat.stanford.edu/~tibs/ElemStatLearn/](http://www-stat.stanford.edu/~tibs/ElemStatLearn/))
+-  Hastie T., Tibshirani R., Friedman J. (2013), The Elements of Statistical Learning
+(http://www-stat.stanford.edu/~tibs/ElemStatLearn/)
+- Optional: Kamiński B., Zawisza M. (2012), Receptury w R. Podręcznik dla ekonomisty, Oficyna
+Wydawnicza SGH ([http://bogumilkaminski.pl/projekty/](http://bogumilkaminski.pl/projekty/))
+- Optional: B. Kamiński, P. Szufel: Julia 1.0 Programming Cookbook, Packt Publishing, 2018
+(https://www.packtpub.com/application-development/julia-10-programming-cookbook)
 
 
-### Guide on passing the class
+### Course evaluation criteria
 
 You can obtain points for the following components:
-- Exam (50 points total):
-  - Test form (25 theoretical questions of equal point value without negative points)
+- Written examination (50 points total):
   - Takes place at the last lecture
-- Laboratories practical exam (50 points total):
-  - Exam in the form of 25 mini-tasks (2-3 bigger tasks) to be solved on a computer (in R)
-- Contests (10 points total)
-  - Two contests will be taking place - 2x5 points total
-  - Details of the first contest will be provided by the teacher during the labs
-  - The second contest will be the same for all laboratories groups - details will be provided during the lecture
-  - Points for the contests will be "additional" - you cannot score more than 100 points in total.
+  - You can bring your own printed materials
+- Laboratory examination (50 points total):
+  - During last laboratory
+  - In R
+  - You can bring your own printed materials
+- Possible extra points
+  - Homeworks
+  - Contests
+  - These points will be "additional" - you cannot score more than 100 points in total.
 
 The final grade is determined based on the sum of points scored at exams, contests etc. (maximum 100):
 
-| From | To | Grade |
+| From | To | Final grade |
 | --- | --- | --- |
 | 0 | 49 | 2 |
 | 50 | 59 | 3 |
