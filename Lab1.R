@@ -365,6 +365,7 @@ for (i in 1:10){
 }
 mat
 
+x <- c(2,4)
 while (length(x)<12){
   x <- c(x,i)
   i=i+2
