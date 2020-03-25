@@ -7,7 +7,7 @@
 
 library(corrplot)
 
-DATA_SET = read.table("/Users/kingasiuta/Desktop/SLM/work in progress/SRD_Z1920-master/Zajecia3/DATA4-12.txt")
+DATA_SET = read.table("https://raw.githubusercontent.com/kingasiuta/SLM_1920/master/Lab3/DATA4-12.txt")
 
 #Function, which adjusts number of fields in the Plots window to number of variables in the dataset 
 OptimizeMfrow = function(elements) {
