@@ -1,0 +1,12 @@
+The DATA4-12 dataset contains information about 51 US states. Each state is characterized by 11 socio-economic characteristics:
+-MORT: mortality per 100,000 inhabitants,
+-INCC: income per capita in dollars,
+-POV:  percentage of families living below the poverty line,
+-EDU1: percentage of population who completed 4 years of high school education,
+-EDU2: percentage of the population who completed 4 years of university education,
+-ALCC: alcohol consumption per capita in gallons,
+-TOBC: consumption of cigarettes per capita in packets,
+-HEXC: health care expenditure per capita in dollars,
+-PHYS: number of doctors per 100,000 inhabitants
+-URB:  percentage of population living in urban areas,
+-AGED: percentage of the population over the age of 65
