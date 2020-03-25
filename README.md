@@ -14,6 +14,8 @@ Schedule information:
 - _Laboratories_:   A-113, Wednesdays, 17:10–18:50
   - group number:   102, meetings dates: 26-02-20;11-03-20;25-03-20;08-04-20;29-04-20;13-05-20;27-05-20;10-06-20;
 
+my email address: kinga.siuta@gmail.com
+
 ### Lectures
 
 | Date | Topic |
