@@ -79,6 +79,9 @@ plot(testset$imdb_score, rpart_prediction, xlim=c(0,10),ylim=c(0,10), pch=20); a
 rpart_rmse = sqrt(1/nrow(testset) * sum((testset$imdb_score - rpart_prediction)^2))
 rpart_rmse
 
+#when making a prediction in a classification tree made in rpart
+#you have to specify type parameter: "class" or "prob" depending on what you want to be returned.
+
 #Confusion matrix
 mt_rpart = table(round(predict(rpart_optimal,newdata = testset)), round(testset$imdb_score))
 
