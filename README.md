@@ -42,7 +42,7 @@ A table of randomly picked datasets below. If someone is missing on the list ple
 |    72514    	|    Musk (Version 2)    	|    https://archive.ics.uci.edu/ml/datasets/Musk+%28Version+2%29    	|    Multivariate     	|    Classification     	|    Integer     	|    6598    	|    168    |
 |    105205    	|    Ecoli    	|    https://archive.ics.uci.edu/ml/datasets/Ecoli    	|    Multivariate     	|    Classification     	|    Real     	|    336    	|    8    |
 |    64197    	|    QSAR fish toxicity    	|    https://archive.ics.uci.edu/ml/datasets/QSAR+fish+toxicity    	|    Multivariate     	|    Regression     	|    Real     	|    908    	|    7    |
-|    68867    	|    BLOGGER    	|    https://archive.ics.uci.edu/ml/datasets/BLOGGER    	|    Multivariate     	|    Classification     	|    0    	|    100    	|    6    |
+|    68867    	|    BLOGGER    	|    https://archive.ics.uci.edu/ml/datasets/BLOGGER    	|    Multivariate     	|    Classification     	|         	|    100    	|    6    |
 |    85292    	|    Drug consumption (quantified)    	|    https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29    	|    Multivariate     	|    Classification     	|    Real     	|    1885    	|    32    |
 |    84687    	|    Mice Protein Expression    	|    https://archive.ics.uci.edu/ml/datasets/Mice+Protein+Expression    	|    Multivariate     	|    Classification, Clustering     	|    Real     	|    1080    	|    82    |
 |    72569    	|    Online News Popularity    	|    https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity    	|    Multivariate     	|    Classification, Regression     	|    Integer, Real     	|    39797    	|    61    |
