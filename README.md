@@ -26,6 +26,32 @@ Each email should have 2 attachments:
 - for Jupyter: `.ipynb` file and `.html/.pdf` file generated from notebook, 
 - for R Markdown:  `.Rmd` file and `.html/.pdf` file generated from notebook.
 
+A table of randomly picked datasets below. If someone is missing on the list please contact me. If there is more than one dataset under given hyperlink, pick one.
+
+| Index  | Dataset Name                                        | URL                                                                                          | Data Types                             | Default Task                | Attribute Types             | # Instances | # Attributes |
+|--------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------|-----------------------------|-----------------------------|-------------|--------------|
+|    72585    	|    Bank Marketing    	|    https://archive.ics.uci.edu/ml/datasets/Bank+Marketing    	|    Multivariate     	|    Classification     	|    Real     	|    45211    	|    17    |
+|    72371    	|    Breast Cancer Wisconsin (Diagnostic)    	|    https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29    	|    Multivariate     	|    Classification     	|    Real     	|    569    	|    32    |
+|    88786    	|    Mushroom    	|    https://archive.ics.uci.edu/ml/datasets/Mushroom    	|    Multivariate     	|    Classification     	|    Categorical     	|    8124    	|    22    |
+|    72661    	|    Abalone    	|    https://archive.ics.uci.edu/ml/datasets/Abalone    	|    Multivariate     	|    Classification     	|    Categorical, Integer, Real     	|    4177    	|    8    |
+|    68734    	|    Wine    	|    https://archive.ics.uci.edu/ml/datasets/Wine    	|    Multivariate     	|    Classification     	|    Integer, Real     	|    178    	|    13    |
+|    76417    	|    Forest Fires    	|    https://archive.ics.uci.edu/ml/datasets/Forest+Fires    	|    Multivariate     	|    Regression     	|    Real     	|    517    	|    13    |
+|    69501    	|    HTRU2    	|    https://archive.ics.uci.edu/ml/datasets/HTRU2    	|    Multivariate     	|    Classification, Clustering     	|    Real     	|    17898    	|    9    |
+|    72439    	|    Student Performance    	|    https://archive.ics.uci.edu/ml/datasets/Student+Performance    	|    Multivariate     	|    Classification, Regression     	|    Integer     	|    649    	|    33    |
+|    85456    	|    Polish companies bankruptcy data    	|    https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data    	|    Multivariate     	|    Classification     	|    Real     	|    10503    	|    64    |
+|    72514    	|    Musk (Version 2)    	|    https://archive.ics.uci.edu/ml/datasets/Musk+%28Version+2%29    	|    Multivariate     	|    Classification     	|    Integer     	|    6598    	|    168    |
+|    105205    	|    Ecoli    	|    https://archive.ics.uci.edu/ml/datasets/Ecoli    	|    Multivariate     	|    Classification     	|    Real     	|    336    	|    8    |
+|    64197    	|    QSAR fish toxicity    	|    https://archive.ics.uci.edu/ml/datasets/QSAR+fish+toxicity    	|    Multivariate     	|    Regression     	|    Real     	|    908    	|    7    |
+|    68867    	|    BLOGGER    	|    https://archive.ics.uci.edu/ml/datasets/BLOGGER    	|    Multivariate     	|    Classification     	|    0    	|    100    	|    6    |
+|    85292    	|    Drug consumption (quantified)    	|    https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29    	|    Multivariate     	|    Classification     	|    Real     	|    1885    	|    32    |
+|    84687    	|    Mice Protein Expression    	|    https://archive.ics.uci.edu/ml/datasets/Mice+Protein+Expression    	|    Multivariate     	|    Classification, Clustering     	|    Real     	|    1080    	|    82    |
+|    72569    	|    Online News Popularity    	|    https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity    	|    Multivariate     	|    Classification, Regression     	|    Integer, Real     	|    39797    	|    61    |
+|    59749    	|    Stock portfolio performance    	|    https://archive.ics.uci.edu/ml/datasets/Stock+portfolio+performance    	|    Multivariate     	|    Regression     	|    Real     	|    315    	|    12    |
+|    105260    	|    Residential Building Data Set    	|    https://archive.ics.uci.edu/ml/datasets/Residential+Building+Data+Set    	|    Multivariate     	|    Regression     	|    Real     	|    372    	|    105    |
+|    68033    	|    Leaf    	|    https://archive.ics.uci.edu/ml/datasets/Leaf    	|    Multivariate     	|    Classification     	|    Real     	|    340    	|    16    |
+|    66149    	|    Divorce Predictors data set    	|    https://archive.ics.uci.edu/ml/datasets/Divorce+Predictors+data+set    	|    Multivariate, Univariate     	|    Classification     	|    Integer     	|    170    	|    54    |
+|    102041    	|    Communities and Crime    	|    https://archive.ics.uci.edu/ml/datasets/Communities+and+Crime    	|    Multivariate     	|    Regression     	|    Real     	|    1994    	|    128    |
+|    72448    	|    Energy efficiency    	|    https://archive.ics.uci.edu/ml/datasets/Energy+efficiency    	|    Multivariate     	|    Classification, Regression     	|    Integer, Real     	|    768    	|    8    |
 
 ---
 **Contact**
@@ -54,7 +80,7 @@ Groups 104 and 105 – Łukasz Kraiński
 
 • lectures: Tuesdays, 8:00-10:35, Aula IV
 
-• laboratories: room A-113;
+• laboratories: room A-113; Wednesdays 17:10
 
 ---
 **Lectures**
